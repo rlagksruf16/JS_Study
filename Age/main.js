@@ -1,5 +1,5 @@
 function calc() {
-    var CurrentYear = 2019;
+    var CurrentYear = prompt("현재 연도를 입력하세요!");
     var BirthYear = prompt("태어난 연도를 입력하세요!");
     var age;
     age = CurrentYear - BirthYear + 1;
